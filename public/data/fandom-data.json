@@ -1,0 +1,1527 @@
+{
+  "anime": [
+    {
+      "id": 1,
+      "name": "Naruto",
+      "series": "Naruto Universe",
+      "genre": "Action",
+      "description": "A determined ninja known for persistence, friendship, and growth.",
+      "traits": [
+        "Brave",
+        "Loyal",
+        "Energetic"
+      ],
+      "image": "images/category-uploaded/anime.jpg",
+      "tags": [
+        "Action",
+        "Naruto Universe"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/anime.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Monkey D. Luffy",
+      "series": "One Piece",
+      "genre": "Adventure",
+      "description": "A fearless captain who values freedom, loyalty, and the bonds of his crew.",
+      "traits": [
+        "Fearless",
+        "Loyal",
+        "Optimistic"
+      ],
+      "image": "images/profile-uploaded/anime-2.jpg",
+      "tags": [
+        "Adventure",
+        "One Piece"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Ichigo Kurosaki",
+      "series": "Bleach",
+      "genre": "Supernatural",
+      "description": "A teenager who protects people while balancing ordinary life with extraordinary responsibility.",
+      "traits": [
+        "Protective",
+        "Determined",
+        "Calm"
+      ],
+      "image": "images/profile-uploaded/anime-3.jpg",
+      "tags": [
+        "Supernatural",
+        "Bleach"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Tanjiro Kamado",
+      "series": "Demon Slayer",
+      "genre": "Action",
+      "description": "A compassionate swordsman whose resolve is shaped by family and perseverance.",
+      "traits": [
+        "Compassionate",
+        "Focused",
+        "Resilient"
+      ],
+      "image": "images/profile-uploaded/anime-4.jpg",
+      "tags": [
+        "Action",
+        "Demon Slayer"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Sailor Moon",
+      "series": "Sailor Moon",
+      "genre": "Fantasy",
+      "description": "A heroic guardian who combines kindness with courage when protecting others.",
+      "traits": [
+        "Kind",
+        "Courageous",
+        "Hopeful"
+      ],
+      "image": "images/profile-uploaded/anime-5.jpg",
+      "tags": [
+        "Fantasy",
+        "Sailor Moon"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "gaming": [
+    {
+      "id": 1,
+      "name": "Astra Vale",
+      "series": "Neon Rift",
+      "genre": "Action",
+      "description": "A tactical explorer navigating a futuristic world of shifting alliances and challenges.",
+      "traits": [
+        "Tactical",
+        "Curious",
+        "Agile"
+      ],
+      "image": "images/category-uploaded/gaming.jpg",
+      "tags": [
+        "Action",
+        "Neon Rift"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/gaming.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Rex Calder",
+      "series": "Cyber Arena",
+      "genre": "Shooter",
+      "description": "A competitive arena pilot who relies on precision and quick decisions.",
+      "traits": [
+        "Focused",
+        "Competitive",
+        "Precise"
+      ],
+      "image": "images/profile-uploaded/gaming-2.jpg",
+      "tags": [
+        "Shooter",
+        "Cyber Arena"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Mira Quinn",
+      "series": "Skybound Quest",
+      "genre": "Adventure",
+      "description": "A resourceful adventurer who solves environmental puzzles and discovers hidden routes.",
+      "traits": [
+        "Resourceful",
+        "Adventurous",
+        "Clever"
+      ],
+      "image": "images/profile-uploaded/gaming-3.jpg",
+      "tags": [
+        "Adventure",
+        "Skybound Quest"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Kai Mercer",
+      "series": "Pixel Legends",
+      "genre": "RPG",
+      "description": "A team-focused hero who develops skills by helping allies and completing quests.",
+      "traits": [
+        "Teamwork",
+        "Patient",
+        "Skilled"
+      ],
+      "image": "images/profile-uploaded/gaming-4.jpg",
+      "tags": [
+        "RPG",
+        "Pixel Legends"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Nova Ray",
+      "series": "Star Circuit",
+      "genre": "Racing",
+      "description": "A high-speed racer who experiments with futuristic vehicles and creative strategies.",
+      "traits": [
+        "Fast",
+        "Creative",
+        "Fearless"
+      ],
+      "image": "images/profile-uploaded/gaming-5.jpg",
+      "tags": [
+        "Racing",
+        "Star Circuit"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Ethan Cross",
+      "series": "Starlight Protocol",
+      "genre": "Sci-Fi",
+      "description": "A field operative caught between a mysterious signal and a race against time.",
+      "traits": [
+        "Analytical",
+        "Brave",
+        "Calm"
+      ],
+      "image": "images/category-uploaded/movies.jpg",
+      "tags": [
+        "Sci-Fi",
+        "Starlight Protocol"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/movies.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Lena Hart",
+      "series": "Midnight Avenue",
+      "genre": "Drama",
+      "description": "A determined artist rebuilding her life while pursuing a difficult creative dream.",
+      "traits": [
+        "Creative",
+        "Driven",
+        "Empathetic"
+      ],
+      "image": "images/profile-uploaded/movies-2.jpg",
+      "tags": [
+        "Drama",
+        "Midnight Avenue"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Marcus Vale",
+      "series": "Iron Horizon",
+      "genre": "Action",
+      "description": "A former engineer who uses practical problem-solving during a global crisis.",
+      "traits": [
+        "Practical",
+        "Brave",
+        "Inventive"
+      ],
+      "image": "images/profile-uploaded/movies-3.jpg",
+      "tags": [
+        "Action",
+        "Iron Horizon"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Ava Stone",
+      "series": "The Hidden Archive",
+      "genre": "Mystery",
+      "description": "A curious researcher who follows clues through forgotten stories and places.",
+      "traits": [
+        "Curious",
+        "Observant",
+        "Persistent"
+      ],
+      "image": "images/profile-uploaded/movies-4.jpg",
+      "tags": [
+        "Mystery",
+        "The Hidden Archive"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Theo Grant",
+      "series": "Ocean Beyond",
+      "genre": "Adventure",
+      "description": "A young explorer searching for a legendary route across an unexplored ocean.",
+      "traits": [
+        "Adventurous",
+        "Humble",
+        "Determined"
+      ],
+      "image": "images/profile-uploaded/movies-5.jpg",
+      "tags": [
+        "Adventure",
+        "Ocean Beyond"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "tvShows": [
+    {
+      "id": 1,
+      "name": "Maya Brooks",
+      "series": "City Lights",
+      "genre": "Drama",
+      "description": "A community organizer balancing personal goals with the needs of her neighborhood.",
+      "traits": [
+        "Empathetic",
+        "Organized",
+        "Strong"
+      ],
+      "image": "images/category-uploaded/tv-shows.jpg",
+      "tags": [
+        "Drama",
+        "City Lights"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/tv-shows.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Daniel Reed",
+      "series": "Frontier Unit",
+      "genre": "Action",
+      "description": "A field specialist who works with a close team to solve complex cases.",
+      "traits": [
+        "Disciplined",
+        "Loyal",
+        "Observant"
+      ],
+      "image": "images/profile-uploaded/tv-shows-2.jpg",
+      "tags": [
+        "Action",
+        "Frontier Unit"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Sofia Lane",
+      "series": "Mystery House",
+      "genre": "Mystery",
+      "description": "A sharp investigator who notices details others often overlook.",
+      "traits": [
+        "Clever",
+        "Curious",
+        "Patient"
+      ],
+      "image": "images/profile-uploaded/tv-shows-3.jpg",
+      "tags": [
+        "Mystery",
+        "Mystery House"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Jordan Blake",
+      "series": "Next Level",
+      "genre": "Comedy",
+      "description": "A creative problem-solver who turns everyday situations into memorable adventures.",
+      "traits": [
+        "Funny",
+        "Creative",
+        "Friendly"
+      ],
+      "image": "images/profile-uploaded/tv-shows-4.jpg",
+      "tags": [
+        "Comedy",
+        "Next Level"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Elena Cruz",
+      "series": "North Station",
+      "genre": "Thriller",
+      "description": "A determined journalist investigating a story while protecting her sources.",
+      "traits": [
+        "Brave",
+        "Persistent",
+        "Resourceful"
+      ],
+      "image": "images/profile-uploaded/tv-shows-5.jpg",
+      "tags": [
+        "Thriller",
+        "North Station"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "kpop": [
+    {
+      "id": 1,
+      "name": "Jina",
+      "series": "Neon Bloom",
+      "genre": "K-Pop",
+      "description": "A fictional solo performer known for bright concepts and energetic stage presence.",
+      "traits": [
+        "Energetic",
+        "Creative",
+        "Confident"
+      ],
+      "image": "images/category-uploaded/k-pop.jpg",
+      "tags": [
+        "K-Pop",
+        "Neon Bloom"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/k-pop.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Minseo",
+      "series": "Moonlight Crew",
+      "genre": "K-Pop",
+      "description": "A fictional vocalist whose style blends soft melodies with modern performance.",
+      "traits": [
+        "Calm",
+        "Expressive",
+        "Focused"
+      ],
+      "image": "images/profile-uploaded/k-pop-2.jpg",
+      "tags": [
+        "K-Pop",
+        "Moonlight Crew"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Haneul",
+      "series": "Pulse Avenue",
+      "genre": "K-Pop",
+      "description": "A fictional dancer and performer who builds choreography around strong rhythms.",
+      "traits": [
+        "Dynamic",
+        "Precise",
+        "Ambitious"
+      ],
+      "image": "images/profile-uploaded/k-pop-3.jpg",
+      "tags": [
+        "K-Pop",
+        "Pulse Avenue"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Sora",
+      "series": "Crystal Note",
+      "genre": "K-Pop",
+      "description": "A fictional songwriter who enjoys experimenting with layered vocal harmonies.",
+      "traits": [
+        "Creative",
+        "Musical",
+        "Thoughtful"
+      ],
+      "image": "images/profile-uploaded/k-pop-4.jpg",
+      "tags": [
+        "K-Pop",
+        "Crystal Note"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Yuri",
+      "series": "Starline",
+      "genre": "K-Pop",
+      "description": "A fictional performer who combines polished visuals with upbeat fan-focused content.",
+      "traits": [
+        "Friendly",
+        "Bright",
+        "Dedicated"
+      ],
+      "image": "images/profile-uploaded/k-pop-5.jpg",
+      "tags": [
+        "K-Pop",
+        "Starline"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "comics": [
+    {
+      "id": 1,
+      "name": "Night Falcon",
+      "series": "Metro Guard",
+      "genre": "Superhero",
+      "description": "An original masked guardian protecting a futuristic city through strategy and agility.",
+      "traits": [
+        "Agile",
+        "Strategic",
+        "Responsible"
+      ],
+      "image": "images/category-uploaded/comics.jpg",
+      "tags": [
+        "Superhero",
+        "Metro Guard"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/comics.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Solaris",
+      "series": "Radiant Force",
+      "genre": "Superhero",
+      "description": "A cosmic hero who channels solar energy to defend distant worlds.",
+      "traits": [
+        "Powerful",
+        "Hopeful",
+        "Noble"
+      ],
+      "image": "images/profile-uploaded/comics-2.jpg",
+      "tags": [
+        "Superhero",
+        "Radiant Force"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Byte Knight",
+      "series": "Digital Realm",
+      "genre": "Sci-Fi",
+      "description": "A technology-focused hero who solves threats through engineering and teamwork.",
+      "traits": [
+        "Inventive",
+        "Logical",
+        "Helpful"
+      ],
+      "image": "images/profile-uploaded/comics-3.jpg",
+      "tags": [
+        "Sci-Fi",
+        "Digital Realm"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Crimson Fox",
+      "series": "Shadow District",
+      "genre": "Mystery",
+      "description": "A clever investigator who uses observation and disguise to uncover hidden plots.",
+      "traits": [
+        "Clever",
+        "Stealthy",
+        "Observant"
+      ],
+      "image": "images/profile-uploaded/comics-4.jpg",
+      "tags": [
+        "Mystery",
+        "Shadow District"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Titan Girl",
+      "series": "Earthbound",
+      "genre": "Action",
+      "description": "A resilient protector who uses strength carefully and prioritizes civilian safety.",
+      "traits": [
+        "Strong",
+        "Caring",
+        "Disciplined"
+      ],
+      "image": "images/profile-uploaded/comics-5.jpg",
+      "tags": [
+        "Action",
+        "Earthbound"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "manga": [
+    {
+      "id": 1,
+      "name": "Ren Akira",
+      "series": "Crimson Path",
+      "genre": "Action",
+      "description": "A young swordsman learning discipline while protecting a remote village.",
+      "traits": [
+        "Disciplined",
+        "Brave",
+        "Loyal"
+      ],
+      "image": "images/category-uploaded/manga.jpg",
+      "tags": [
+        "Action",
+        "Crimson Path"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-24",
+      "categoryImage": "images/category-uploaded/manga.jpg",
+      "videoNote": "Category-specific featured video"
+    },
+    {
+      "id": 2,
+      "name": "Hana Mori",
+      "series": "Garden of Stars",
+      "genre": "Fantasy",
+      "description": "A curious apprentice discovering the hidden rules of a magical garden.",
+      "traits": [
+        "Curious",
+        "Kind",
+        "Imaginative"
+      ],
+      "image": "images/profile-uploaded/manga-2.jpg",
+      "tags": [
+        "Fantasy",
+        "Garden of Stars"
+      ],
+      "featured": true,
+      "createdAt": "2026-09-23"
+    },
+    {
+      "id": 3,
+      "name": "Daichi Sato",
+      "series": "Rising Circuit",
+      "genre": "Sports",
+      "description": "A determined racer improving through practice, teamwork, and healthy competition.",
+      "traits": [
+        "Determined",
+        "Fast",
+        "Team-Oriented"
+      ],
+      "image": "images/profile-uploaded/manga-3.jpg",
+      "tags": [
+        "Sports",
+        "Rising Circuit"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": 4,
+      "name": "Mei Tanaka",
+      "series": "Paper Moon",
+      "genre": "Slice of Life",
+      "description": "A thoughtful student documenting small moments and friendships through art.",
+      "traits": [
+        "Creative",
+        "Gentle",
+        "Observant"
+      ],
+      "image": "images/profile-uploaded/manga-4.jpg",
+      "tags": [
+        "Slice of Life",
+        "Paper Moon"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 5,
+      "name": "Kaito Shin",
+      "series": "Echo Blade",
+      "genre": "Adventure",
+      "description": "A wandering fighter searching for the truth behind an old family legend.",
+      "traits": [
+        "Adventurous",
+        "Focused",
+        "Honest"
+      ],
+      "image": "images/profile-uploaded/manga-5.jpg",
+      "tags": [
+        "Adventure",
+        "Echo Blade"
+      ],
+      "featured": false,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Anime Fandom Spotlight",
+      "category": "anime",
+      "excerpt": "Explore the stories, characters, and ideas that make Anime fandom special.",
+      "content": "Welcome to the Anime spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-23",
+      "relatedCategories": [
+        "anime"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Anime Guide for New Fans",
+      "category": "anime",
+      "excerpt": "A quick guide to discovering Anime content on FandomVerse.",
+      "content": "This guide introduces the Anime hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-15",
+      "relatedCategories": [
+        "anime"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gaming Fandom Spotlight",
+      "category": "gaming",
+      "excerpt": "Explore the stories, characters, and ideas that make Gaming fandom special.",
+      "content": "Welcome to the Gaming spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-22",
+      "relatedCategories": [
+        "gaming"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Gaming Guide for New Fans",
+      "category": "gaming",
+      "excerpt": "A quick guide to discovering Gaming content on FandomVerse.",
+      "content": "This guide introduces the Gaming hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-14",
+      "relatedCategories": [
+        "gaming"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Movies Fandom Spotlight",
+      "category": "movies",
+      "excerpt": "Explore the stories, characters, and ideas that make Movies fandom special.",
+      "content": "Welcome to the Movies spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-21",
+      "relatedCategories": [
+        "movies"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Movies Guide for New Fans",
+      "category": "movies",
+      "excerpt": "A quick guide to discovering Movies content on FandomVerse.",
+      "content": "This guide introduces the Movies hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-13",
+      "relatedCategories": [
+        "movies"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "TV Shows Fandom Spotlight",
+      "category": "tvShows",
+      "excerpt": "Explore the stories, characters, and ideas that make TV Shows fandom special.",
+      "content": "Welcome to the TV Shows spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-20",
+      "relatedCategories": [
+        "tvShows"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "TV Shows Guide for New Fans",
+      "category": "tvShows",
+      "excerpt": "A quick guide to discovering TV Shows content on FandomVerse.",
+      "content": "This guide introduces the TV Shows hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-12",
+      "relatedCategories": [
+        "tvShows"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "K-Pop Fandom Spotlight",
+      "category": "kpop",
+      "excerpt": "Explore the stories, characters, and ideas that make K-Pop fandom special.",
+      "content": "Welcome to the K-Pop spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-19",
+      "relatedCategories": [
+        "kpop"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "K-Pop Guide for New Fans",
+      "category": "kpop",
+      "excerpt": "A quick guide to discovering K-Pop content on FandomVerse.",
+      "content": "This guide introduces the K-Pop hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-11",
+      "relatedCategories": [
+        "kpop"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Comics Fandom Spotlight",
+      "category": "comics",
+      "excerpt": "Explore the stories, characters, and ideas that make Comics fandom special.",
+      "content": "Welcome to the Comics spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-18",
+      "relatedCategories": [
+        "comics"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Comics Guide for New Fans",
+      "category": "comics",
+      "excerpt": "A quick guide to discovering Comics content on FandomVerse.",
+      "content": "This guide introduces the Comics hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-10",
+      "relatedCategories": [
+        "comics"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Manga Fandom Spotlight",
+      "category": "manga",
+      "excerpt": "Explore the stories, characters, and ideas that make Manga fandom special.",
+      "content": "Welcome to the Manga spotlight. Discover memorable characters, creative worlds, community moments, and fan-favorite themes in FandomVerse.",
+      "date": "2026-09-17",
+      "relatedCategories": [
+        "manga"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Manga Guide for New Fans",
+      "category": "manga",
+      "excerpt": "A quick guide to discovering Manga content on FandomVerse.",
+      "content": "This guide introduces the Manga hub, profiles, media, events, and releases so new visitors can explore at their own pace.",
+      "date": "2026-09-09",
+      "relatedCategories": [
+        "manga"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": 11,
+      "title": "Anime Fan Meetup 1",
+      "category": "anime",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Anime fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 12,
+      "title": "Anime Fan Meetup 2",
+      "category": "anime",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Anime fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 13,
+      "title": "Anime Fan Meetup 3",
+      "category": "anime",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Anime fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 21,
+      "title": "Gaming Fan Meetup 1",
+      "category": "gaming",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Gaming fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 22,
+      "title": "Gaming Fan Meetup 2",
+      "category": "gaming",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Gaming fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 23,
+      "title": "Gaming Fan Meetup 3",
+      "category": "gaming",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Gaming fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 31,
+      "title": "Movies Fan Meetup 1",
+      "category": "movies",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Movies fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 32,
+      "title": "Movies Fan Meetup 2",
+      "category": "movies",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Movies fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 33,
+      "title": "Movies Fan Meetup 3",
+      "category": "movies",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Movies fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 41,
+      "title": "TV Shows Fan Meetup 1",
+      "category": "tvShows",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for TV Shows fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 42,
+      "title": "TV Shows Fan Meetup 2",
+      "category": "tvShows",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for TV Shows fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 43,
+      "title": "TV Shows Fan Meetup 3",
+      "category": "tvShows",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for TV Shows fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 51,
+      "title": "K-Pop Fan Meetup 1",
+      "category": "kpop",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for K-Pop fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 52,
+      "title": "K-Pop Fan Meetup 2",
+      "category": "kpop",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for K-Pop fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 53,
+      "title": "K-Pop Fan Meetup 3",
+      "category": "kpop",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for K-Pop fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 61,
+      "title": "Comics Fan Meetup 1",
+      "category": "comics",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Comics fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 62,
+      "title": "Comics Fan Meetup 2",
+      "category": "comics",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Comics fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 63,
+      "title": "Comics Fan Meetup 3",
+      "category": "comics",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Comics fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 71,
+      "title": "Manga Fan Meetup 1",
+      "category": "manga",
+      "date": "2026-10-06",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Manga fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 72,
+      "title": "Manga Fan Meetup 2",
+      "category": "manga",
+      "date": "2026-10-07",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Manga fans with discussions, showcases, and fan activities."
+    },
+    {
+      "id": 73,
+      "title": "Manga Fan Meetup 3",
+      "category": "manga",
+      "date": "2026-10-08",
+      "location": "FandomVerse Community Hall",
+      "description": "A community gathering for Manga fans with discussions, showcases, and fan activities."
+    }
+  ],
+  "media": [
+    {
+      "id": 1,
+      "title": "Anime Featured Trailer",
+      "category": "anime",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured Anime trailer placeholder for the media showcase.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Anime Fan Interview",
+      "category": "anime",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the Anime community.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Featured Trailer",
+      "category": "gaming",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured Gaming trailer placeholder for the media showcase.",
+      "image": "images/media-uploaded/media-2.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Gaming Fan Interview",
+      "category": "gaming",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the Gaming community.",
+      "image": "images/media-uploaded/media-3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Movies Featured Trailer",
+      "category": "movies",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured Movies trailer placeholder for the media showcase.",
+      "image": "images/media-uploaded/media-4.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Movies Fan Interview",
+      "category": "movies",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the Movies community.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": 4,
+      "title": "TV Shows Featured Trailer",
+      "category": "tvShows",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured TV Shows trailer placeholder for the media showcase.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "TV Shows Fan Interview",
+      "category": "tvShows",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the TV Shows community.",
+      "image": "images/media-uploaded/media-2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "K-Pop Featured Trailer",
+      "category": "kpop",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured K-Pop trailer placeholder for the media showcase.",
+      "image": "images/media-uploaded/media-3.jpg"
+    },
+    {
+      "id": 15,
+      "title": "K-Pop Fan Interview",
+      "category": "kpop",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the K-Pop community.",
+      "image": "images/media-uploaded/media-4.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Comics Featured Trailer",
+      "category": "comics",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured Comics trailer placeholder for the media showcase.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Comics Fan Interview",
+      "category": "comics",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the Comics community.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Manga Featured Trailer",
+      "category": "manga",
+      "type": "Trailer",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "Featured Manga trailer placeholder for the media showcase.",
+      "image": "images/media-uploaded/media-2.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Manga Fan Interview",
+      "category": "manga",
+      "type": "Interview",
+      "url": "https://www.youtube.com/embed/uIW0xWchKJg",
+      "description": "A fan interview feature for the Manga community.",
+      "image": "images/media-uploaded/media-3.jpg"
+    },
+    {
+      "id": 101,
+      "title": "Anime Podcast Clip",
+      "category": "anime",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for Anime fans.",
+      "image": "images/media-uploaded/media-4.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Gaming Podcast Clip",
+      "category": "gaming",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for Gaming fans.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": 103,
+      "title": "Movies Podcast Clip",
+      "category": "movies",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for Movies fans.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": 104,
+      "title": "TV Shows Podcast Clip",
+      "category": "tvShows",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for TV Shows fans.",
+      "image": "images/media-uploaded/media-2.jpg"
+    },
+    {
+      "id": 105,
+      "title": "K-Pop Podcast Clip",
+      "category": "kpop",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for K-Pop fans.",
+      "image": "images/media-uploaded/media-3.jpg"
+    },
+    {
+      "id": 106,
+      "title": "Comics Podcast Clip",
+      "category": "comics",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for Comics fans.",
+      "image": "images/media-uploaded/media-4.jpg"
+    },
+    {
+      "id": 107,
+      "title": "Manga Podcast Clip",
+      "category": "manga",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "Podcast-style audio feature for Manga fans.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": "audio-anime",
+      "title": "Anime Fandom Audio Clip",
+      "category": "anime",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": "audio-gaming",
+      "title": "Gaming Fandom Audio Clip",
+      "category": "gaming",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-2.jpg"
+    },
+    {
+      "id": "audio-movies",
+      "title": "Movies Fandom Audio Clip",
+      "category": "movies",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-3.jpg"
+    },
+    {
+      "id": "audio-tvShows",
+      "title": "Tv Shows Fandom Audio Clip",
+      "category": "tvShows",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-4.jpg"
+    },
+    {
+      "id": "audio-kpop",
+      "title": "K-Pop Fandom Audio Clip",
+      "category": "kpop",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/category-uploaded/media.jpg"
+    },
+    {
+      "id": "audio-comics",
+      "title": "Comics Fandom Audio Clip",
+      "category": "comics",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-1.jpg"
+    },
+    {
+      "id": "audio-manga",
+      "title": "Manga Fandom Audio Clip",
+      "category": "manga",
+      "type": "Audio",
+      "url": "media/fandomverse-sample.wav",
+      "description": "A short built-in audio demo clip for the FandomVerse media section.",
+      "image": "images/media-uploaded/media-2.jpg"
+    }
+  ],
+  "trailers": [
+    {
+      "id": 1,
+      "title": "Anime Upcoming Trailer",
+      "category": "anime",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Upcoming Trailer",
+      "category": "gaming",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Movies Upcoming Trailer",
+      "category": "movies",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "TV Shows Upcoming Trailer",
+      "category": "tvShows",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "K-Pop Upcoming Trailer",
+      "category": "kpop",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-4.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Comics Upcoming Trailer",
+      "category": "comics",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-5.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Manga Upcoming Trailer",
+      "category": "manga",
+      "status": "upcoming",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "/images/category-uploaded/trailer-6.jpg"
+    }
+  ],
+  "releases": [
+    {
+      "id": 1,
+      "title": "Anime New Release",
+      "category": "anime",
+      "date": "2026-10-11",
+      "type": "New Release",
+      "description": "Upcoming Anime content highlighted by FandomVerse."
+    },
+    {
+      "id": 2,
+      "title": "Gaming New Release",
+      "category": "gaming",
+      "date": "2026-10-12",
+      "type": "New Release",
+      "description": "Upcoming Gaming content highlighted by FandomVerse."
+    },
+    {
+      "id": 3,
+      "title": "Movies New Release",
+      "category": "movies",
+      "date": "2026-10-13",
+      "type": "New Release",
+      "description": "Upcoming Movies content highlighted by FandomVerse."
+    },
+    {
+      "id": 4,
+      "title": "TV Shows New Release",
+      "category": "tvShows",
+      "date": "2026-10-14",
+      "type": "New Release",
+      "description": "Upcoming TV Shows content highlighted by FandomVerse."
+    },
+    {
+      "id": 5,
+      "title": "K-Pop New Release",
+      "category": "kpop",
+      "date": "2026-10-15",
+      "type": "New Release",
+      "description": "Upcoming K-Pop content highlighted by FandomVerse."
+    },
+    {
+      "id": 6,
+      "title": "Comics New Release",
+      "category": "comics",
+      "date": "2026-10-16",
+      "type": "New Release",
+      "description": "Upcoming Comics content highlighted by FandomVerse."
+    },
+    {
+      "id": 7,
+      "title": "Manga New Release",
+      "category": "manga",
+      "date": "2026-10-17",
+      "type": "New Release",
+      "description": "Upcoming Manga content highlighted by FandomVerse."
+    }
+  ],
+  "merchandise": [
+    {
+      "id": 1,
+      "name": "Anime Fandom Tee",
+      "category": "anime",
+      "price": "$20.99",
+      "description": "Fan-inspired Anime apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-1.svg"
+    },
+    {
+      "id": 11,
+      "name": "Anime Collector Badge",
+      "category": "anime",
+      "price": "$10.99",
+      "description": "A collectible Anime themed accessory.",
+      "image": "images/merchandise/merch-2.svg"
+    },
+    {
+      "id": 2,
+      "name": "Gaming Fandom Tee",
+      "category": "gaming",
+      "price": "$21.99",
+      "description": "Fan-inspired Gaming apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-3.svg"
+    },
+    {
+      "id": 12,
+      "name": "Gaming Collector Badge",
+      "category": "gaming",
+      "price": "$11.99",
+      "description": "A collectible Gaming themed accessory.",
+      "image": "images/merchandise/merch-4.svg"
+    },
+    {
+      "id": 3,
+      "name": "Movies Fandom Tee",
+      "category": "movies",
+      "price": "$22.99",
+      "description": "Fan-inspired Movies apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-5.svg"
+    },
+    {
+      "id": 13,
+      "name": "Movies Collector Badge",
+      "category": "movies",
+      "price": "$12.99",
+      "description": "A collectible Movies themed accessory.",
+      "image": "images/merchandise/merch-6.svg"
+    },
+    {
+      "id": 4,
+      "name": "TV Shows Fandom Tee",
+      "category": "tvShows",
+      "price": "$23.99",
+      "description": "Fan-inspired TV Shows apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-7.svg"
+    },
+    {
+      "id": 14,
+      "name": "TV Shows Collector Badge",
+      "category": "tvShows",
+      "price": "$13.99",
+      "description": "A collectible TV Shows themed accessory.",
+      "image": "images/merchandise/merch-8.svg"
+    },
+    {
+      "id": 5,
+      "name": "K-Pop Fandom Tee",
+      "category": "kpop",
+      "price": "$24.99",
+      "description": "Fan-inspired K-Pop apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-9.svg"
+    },
+    {
+      "id": 15,
+      "name": "K-Pop Collector Badge",
+      "category": "kpop",
+      "price": "$14.99",
+      "description": "A collectible K-Pop themed accessory.",
+      "image": "images/merchandise/merch-10.svg"
+    },
+    {
+      "id": 6,
+      "name": "Comics Fandom Tee",
+      "category": "comics",
+      "price": "$25.99",
+      "description": "Fan-inspired Comics apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-11.svg"
+    },
+    {
+      "id": 16,
+      "name": "Comics Collector Badge",
+      "category": "comics",
+      "price": "$15.99",
+      "description": "A collectible Comics themed accessory.",
+      "image": "images/merchandise/merch-12.svg"
+    },
+    {
+      "id": 7,
+      "name": "Manga Fandom Tee",
+      "category": "manga",
+      "price": "$26.99",
+      "description": "Fan-inspired Manga apparel for the merchandise showcase.",
+      "image": "images/merchandise/merch-13.svg"
+    },
+    {
+      "id": 17,
+      "name": "Manga Collector Badge",
+      "category": "manga",
+      "price": "$16.99",
+      "description": "A collectible Manga themed accessory.",
+      "image": "images/merchandise/merch-14.svg"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is FandomVerse?",
+      "a": "FandomVerse is a single-page fandom portal for anime, gaming, movies, TV shows, K-Pop, comics, and manga."
+    },
+    {
+      "q": "How do I search?",
+      "a": "Use the Search link or the search box in the navbar to search profiles and content."
+    },
+    {
+      "q": "Can I buy merchandise?",
+      "a": "You can add merchandise to the temporary cart, but checkout and payment are not included."
+    },
+    {
+      "q": "How do bookmarks work?",
+      "a": "Bookmarks are stored in your browser using LocalStorage."
+    },
+    {
+      "q": "Does the chatbot use a live AI service?",
+      "a": "No. The project uses a pre-scripted FAQ dataset to keep the no-backend architecture lightweight."
+    }
+  ]
+}

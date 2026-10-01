@@ -1,0 +1,21 @@
+<section class="page">
+  <div class="hero"><p class="eyebrow">FANDOMVERSE • SHOP</p><h1>Merchandise</h1><p>Browse fan merchandise and add products to your temporary shopping cart.</p></div>
+  <div class="two">
+    <div class="grid">
+      <article class="card" *ngFor="let item of items">
+        <img class="media-img" [src]="'/' + item.image" [alt]="item.name">
+        <span class="tag">{{item.category}}</span><h2>{{item.name}}</h2><p class="muted">{{item.description}}</p><strong class="price">{{item.price}}</strong><br>
+        <button type="button" class="btn cart-btn" (click)="add(item)">{{isInCart(item) ? '✓ In Cart' : '🛒 Add to Cart'}}</button>
+      </article>
+    </div>
+    <aside class="card cart-panel">
+      <h2>🛒 Shopping Cart <span class="cart-count">({{cart.length}})</span></h2>
+      <p *ngIf="!cart.length" class="muted">Your temporary cart is empty.</p>
+      <div class="cart-row" *ngFor="let item of cart">
+        <div><strong>{{item.name}}</strong><small>{{item.category}} • {{item.price}}</small></div>
+        <button class="btn" type="button" (click)="remove(item)">Remove</button>
+      </div>
+      <hr><div class="cart-total"><span>Total</span><strong>${{total.toFixed(2)}}</strong></div>
+    </aside>
+  </div>
+</section>

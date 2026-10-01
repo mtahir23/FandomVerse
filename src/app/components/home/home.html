@@ -1,0 +1,24 @@
+<section class="hero">
+  <div class="hero-content"><h1>Welcome to <span>FandomVerse</span></h1><p>Explore Your Favorite Fandoms</p><a class="hero-btn" routerLink="/anime">Explore Now</a></div>
+  <div class="hero-image"><img src="images/hero-controller.png" alt="FandomVerse controller"></div>
+</section>
+<section class="categories"><div class="category-grid">
+  <article *ngFor="let c of categories" class="category-card image-category-card" (click)="openCategoryCard(c)" tabindex="0" (keydown.enter)="openCategoryCard(c)">
+    <div class="category-card-image"><img [src]="c.image" [alt]="c.title"></div>
+    <div class="category-card-content"><h3>{{c.title}}</h3><span *ngIf="c.video">▶ Watch Video</span><span *ngIf="!c.video">Gaming • Image Only</span></div>
+    <button type="button" class="category-explore" (click)="exploreCategory(c,$event)">Explore</button>
+  </article>
+</div></section>
+<app-featured></app-featured>
+
+<section class="live-info"><div class="info-box"><div class="info-icon">🕐</div><div><h3>Current Time</h3><p>{{currentDateTime}}</p></div></div><div class="info-box"><div class="info-icon">👥</div><div><h3>Visitors</h3><p>{{visitorCount}}</p></div></div></section>
+<div class="home-video-modal" *ngIf="selectedCard || selectedCategoryCard" (click)="closeCard()">
+  <div class="home-video-dialog" (click)="$event.stopPropagation()">
+    <button type="button" class="video-close" (click)="closeCard()">×</button>
+    <h2 *ngIf="selectedCard">{{selectedCard.profile.name}} • {{selectedCard.profile.series}}</h2>
+    <h2 *ngIf="selectedCategoryCard">{{selectedCategoryCard.title}}</h2>
+    <iframe *ngIf="selectedCard && selectedCard.video.includes('youtube.com')" class="youtube-video" [src]="selectedCard.video | safeUrl" title="Fandom video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <iframe *ngIf="selectedCategoryCard?.video" class="youtube-video" [src]="selectedCategoryCard!.video! | safeUrl" title="{{selectedCategoryCard?.title}} video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <video *ngIf="selectedCard && !selectedCard.video.includes('youtube.com')" [src]="selectedCard.video" controls autoplay playsinline></video>
+  </div>
+</div>

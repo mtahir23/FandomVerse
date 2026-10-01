@@ -1,0 +1,2 @@
+import { CommonModule } from '@angular/common'; import { Component, OnInit } from '@angular/core'; import { SiteData } from '../../services/site-data';
+@Component({selector:'app-releases',imports:[CommonModule],templateUrl:'./releases.html',styleUrl:'./releases.css'}) export class Releases implements OnInit {items:any[]=[];constructor(private site:SiteData){}async ngOnInit(){this.items=(await this.site.getData()).releases}}

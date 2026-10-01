@@ -1,0 +1,117 @@
+<section class="search-page">
+  <div class="search-hero">
+    <div>
+      <p class="eyebrow">FANDOMVERSE SEARCH</p>
+      <h1>Find Something <span>Awesome</span></h1>
+      <p class="intro">Search across all seven fandom categories and discover characters, series, genres and tags.</p>
+    </div>
+  </div>
+
+  <div class="search-panel">
+    <form class="search-form" (ngSubmit)="search()">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input
+          [(ngModel)]="query"
+          name="searchQuery"
+          type="search"
+          placeholder="Search Naruto, action, One Piece..."
+          aria-label="Search FandomVerse"
+        />
+      </label>
+      <button class="search-btn" type="submit">Search</button>
+    </form>
+
+    <div class="filters">
+      <label>
+        <span>Category</span>
+        <select [(ngModel)]="selectedCategory" name="category" (change)="onFilterChange()">
+          <option value="all">All Categories</option>
+          @for (category of categories; track category.key) {
+            <option [value]="category.key">{{ category.label }}</option>
+          }
+        </select>
+      </label>
+
+      <label>
+        <span>Content Type</span>
+        <select [(ngModel)]="selectedType" name="type" (change)="onFilterChange()">
+          <option value="all">All Types</option>
+          @for (type of contentTypes; track type) {
+            <option [value]="type">{{ type }}</option>
+          }
+        </select>
+      </label>
+
+      <label>
+        <span>Sort</span>
+        <select [(ngModel)]="sortBy" name="sort" (change)="onFilterChange()">
+          <option value="relevance">Relevance</option>
+          <option value="name">A–Z</option>
+          <option value="newest">Newest</option>
+          <option value="featured">Featured</option>
+        </select>
+      </label>
+
+      <button class="clear-btn" type="button" (click)="clearSearch()">Clear</button>
+    </div>
+  </div>
+
+  @if (loading) {
+    <div class="state-card">Loading FandomVerse search data...</div>
+  } @else if (error) {
+    <div class="state-card error">{{ error }}</div>
+  } @else {
+    <div class="results-heading">
+      <div>
+        <h2>{{ query ? 'Search Results' : 'Explore All Profiles' }}</h2>
+        <p>{{ results.length }} result{{ results.length === 1 ? '' : 's' }} found</p>
+      </div>
+      @if (query) {
+        <span class="query-chip">“{{ query }}”</span>
+      }
+    </div>
+
+    @if (results.length) {
+      <div class="results-grid">
+        @for (result of results; track result.category + '-' + result.id) {
+          <article class="result-card">
+            <div class="image-wrap">
+              <img [src]="result.image" [alt]="result.name" />
+              @if (result.featured) {
+                <span class="featured-badge">Featured</span>
+              }
+            </div>
+
+            <div class="card-body">
+              <div class="meta-row">
+                <span>{{ result.categoryLabel }}</span>
+                <span>{{ result.contentType }}</span>
+              </div>
+              <h3>{{ result.name }}</h3>
+              <p class="series">{{ result.series }} · {{ result.genre }}</p>
+              <p class="description">{{ result.description }}</p>
+
+              <div class="tags">
+                @for (tag of result.tags; track tag) {
+                  <span>{{ tag }}</span>
+                }
+              </div>
+
+              <a class="view-link" [routerLink]="'/' + result.category">
+                View {{ result.categoryLabel }} →
+              </a>
+            </div>
+          </article>
+        }
+      </div>
+    } @else {
+      <div class="empty-state">
+        <div class="empty-icon">⌕</div>
+        <h2>No matching fandom found</h2>
+        <p>Try a character name, series, genre, tag, or another category.</p>
+        <button class="search-btn" type="button" (click)="clearSearch()">Show All Profiles</button>
+      </div>
+    }
+  }
+</section>

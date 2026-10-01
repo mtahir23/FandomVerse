@@ -1,0 +1,41 @@
+<nav class="navbar">
+
+  <div class="logo">
+    <span>Fandom</span><span>Verse</span>
+  </div>
+
+ <button
+  class="menu-btn"
+  type="button"
+  (click)="toggleMenu()"
+  aria-label="Open menu">
+  ☰
+</button>
+
+  <div class="nav-links" [class.show]="menuOpen">
+    <a (click)="closeMenu()" routerLink="/">Home</a>
+    <form class="nav-search" (ngSubmit)="submitSearch()">
+      <span aria-hidden="true">⌕</span>
+      <input
+        [(ngModel)]="searchQuery"
+        name="navSearch"
+        type="search"
+        placeholder="Search..."
+        aria-label="Search FandomVerse"
+      />
+    </form>
+    <a (click)="closeMenu()" routerLink="/anime">Anime</a>
+    <a (click)="closeMenu()" routerLink="/gaming">Gaming</a>
+    <a (click)="closeMenu()" routerLink="/movies">Movies</a>
+    <a (click)="closeMenu()" routerLink="/tv-shows">TV Shows</a>
+    <a (click)="closeMenu()" routerLink="/k-pop">K-Pop</a>
+    <a (click)="closeMenu()" routerLink="/comics">Comics</a>
+    <a (click)="closeMenu()" routerLink="/manga">Manga</a>
+    <a (click)="closeMenu()" routerLink="/media">Media</a>
+    <a (click)="closeMenu()" routerLink="/merchandise">Shop / 🛒 Cart ({{siteData.cartCount()}}) • ${{siteData.cartTotal().toFixed(2)}}</a>
+    <a (click)="closeMenu()" routerLink="/bookmarks">🔖 ({{siteData.bookmarkCount()}})</a>
+    <a (click)="closeMenu()" routerLink="/login">Login</a>
+    <a (click)="closeMenu()" routerLink="/signup">Sign Up</a>
+  </div>
+
+</nav>

@@ -1,0 +1,18 @@
+<section class="featured">
+  <div class="featured-header"><div><h2>Featured Fandom Cards</h2><p>3 cards show first. Click <b>View All</b> to show the remaining cards.</p></div><button type="button" class="view-all" (click)="toggleAll()">{{showAll ? 'Show Less ↑' : 'View All →'}}</button></div>
+  <div class="featured-grid">
+    <article class="featured-card" *ngFor="let card of visibleCards" (click)="openVideo(card)" [class.image-only]="!card.video" [attr.tabindex]="card.video ? 0 : null" [attr.role]="card.video ? 'button' : null">
+      <div class="featured-image"><img [src]="card.image" [alt]="card.title"><span *ngIf="card.video">▶ Watch Video</span><span *ngIf="!card.video">🖼 Image Only</span></div>
+      <div class="featured-content">
+        <span class="tag">{{card.title}}</span><h3>{{card.name}}</h3><p>{{card.description}}</p>
+        <div class="featured-actions">
+          <button type="button" (click)="$event.stopPropagation();bookmark(card)">{{isBookmarked(card) ? '✓ Bookmarked' : '🔖 Bookmark'}}</button>
+          <button type="button" (click)="$event.stopPropagation();addCart(card)">{{isInCart(card) ? '✓ In Cart' : '🛒 Add to Cart'}}</button>
+        </div>
+      </div>
+    </article>
+  </div>
+  <dialog class="featured-dialog" *ngFor="let card of cards" [id]="'featured-video-'+card.key">
+    <div class="featured-video-box"><button type="button" (click)="closeVideo(card.key)">×</button><h3>{{card.name}} • {{card.series}}</h3><iframe *ngIf="card.video" class="youtube-video" [src]="card.video | safeUrl" title="{{card.title}} video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><p *ngIf="!card.video" class="muted">Gaming cards are image-only and do not open a video.</p></div>
+  </dialog>
+</section>

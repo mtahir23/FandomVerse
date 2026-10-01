@@ -1,0 +1,93 @@
+<section class="category-page">
+  <div class="breadcrumb"><a href="/">Home</a> <span>›</span> K-Pop</div>
+  <div class="category-hero">
+    <div>
+      <p class="eyebrow">FANDOMVERSE • K-POP</p>
+      <h1>K-Pop</h1>
+      <p class="subtitle">Explore performers, music concepts, and K-Pop fandom profiles.</p>
+    </div>
+    <div class="hero-badge category-hero-image"><img src="images/category-uploaded/k-pop.jpg" alt="K-Pop featured artwork"></div>
+  </div>
+
+  <div class="toolbar" aria-label="Category filters">
+    <label class="search-box">
+      <span>🔎</span>
+      <input [(ngModel)]="searchTerm" (ngModelChange)="applyFilters()" type="search" placeholder="Search K-Pop..." aria-label="Search K-Pop" />
+    </label>
+
+    <label>
+      <span>Genre</span>
+      <select [(ngModel)]="selectedGenre" (ngModelChange)="applyFilters()">
+        <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
+      </select>
+    </label>
+
+    <label>
+      <span>Sort</span>
+      <select [(ngModel)]="sortBy" (ngModelChange)="applyFilters()">
+        <option value="featured">Featured</option>
+        <option value="az">A–Z</option>
+        <option value="newest">Newest</option>
+      </select>
+    </label>
+  </div>
+
+  <div *ngIf="loading" class="state-card">Loading K-Pop profiles...</div>
+  <div *ngIf="!loading && errorMessage" class="state-card error">{{ errorMessage }}</div>
+  <div *ngIf="!loading && !errorMessage && filteredProfiles.length === 0" class="state-card">No profiles match your filters.</div>
+
+  <div *ngIf="!loading && !errorMessage && filteredProfiles.length" class="results-line">
+    Showing <strong>{{ filteredProfiles.length }}</strong> of {{ allProfiles.length }} profiles
+  </div>
+
+  <div class="character-grid" *ngIf="!loading && !errorMessage">
+    <article class="character-card video-card" *ngFor="let profile of filteredProfiles" (click)="openVideo(profile)" tabindex="0" role="button" (keydown.enter)="openVideo(profile)">
+      <div class="card-image-wrap">
+        <img [src]="'/' + profile.image" [alt]="profile.name + ' profile'" loading="lazy" />
+        <span class="featured-pill" *ngIf="profile.featured">Featured</span>
+        <span class="play-overlay">▶ Watch Video</span>
+      </div>
+      <div class="card-content">
+        <div class="meta-row"><span>{{ profile.genre }}</span><span>{{ profile.series }}</span></div>
+        <h2>{{ profile.name }}</h2>
+        <p>{{ profile.description }}</p>
+        <div class="traits">
+          <span *ngFor="let trait of profile.traits">{{ trait }}</span>
+        </div>
+        <div class="card-actions">
+          <button class="bookmark-btn" type="button" (click)="$event.stopPropagation();saveBookmark(profile)">{{ siteData.isBookmarked('profile-kpop-' + profile.id) ? '✓ Bookmarked' : '🔖 Bookmark' }}</button>
+          <button class="cart-btn" type="button" (click)="$event.stopPropagation();addToCart(profile)">{{ isInCart(profile) ? '✓ In Cart' : '🛒 Add to Cart' }}</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <section class="gallery-section">
+    <div class="section-heading"><div><p class="eyebrow">VISUAL ARCHIVE</p><h2>Image Gallery</h2></div><span>{{ filteredProfiles.length }} images</span></div>
+    <div class="gallery-grid"><button class="gallery-item" type="button" *ngFor="let profile of filteredProfiles" (click)="openGallery(profile.image)"><img [src]="'/' + profile.image" [alt]="profile.name" loading="lazy"></button></div>
+  
+  <div class="video-modal" *ngIf="selectedVideo" (click)="closeVideo()">
+    <div class="video-dialog" (click)="$event.stopPropagation()">
+      <button class="video-close" type="button" (click)="closeVideo()" aria-label="Close video">×</button>
+      <h2>{{ selectedVideoTitle }}</h2>
+      <div class="video-frame">
+        <iframe *ngIf="selectedVideo.includes('youtube.com')" class="youtube-video local-video" [src]="selectedVideo | safeUrl" title="{{selectedVideoTitle}}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><video *ngIf="!selectedVideo.includes('youtube.com')" class="local-video" [src]="selectedVideo" controls autoplay playsinline></video>
+      </div>
+      <p class="video-help">Click outside the video or × to close.</p>
+    </div>
+  </div>
+</section>
+
+  <div class="lightbox" *ngIf="galleryImage" (click)="closeGallery()"><img [src]="galleryImage" alt="Gallery preview"><button type="button" (click)="$event.stopPropagation();closeGallery()">×</button></div>
+
+  <div class="video-modal" *ngIf="selectedVideo" (click)="closeVideo()">
+    <div class="video-dialog" (click)="$event.stopPropagation()">
+      <button class="video-close" type="button" (click)="closeVideo()" aria-label="Close video">×</button>
+      <h2>{{ selectedVideoTitle }}</h2>
+      <div class="video-frame">
+        <iframe *ngIf="selectedVideo.includes('youtube.com')" class="youtube-video local-video" [src]="selectedVideo | safeUrl" title="{{selectedVideoTitle}}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><video *ngIf="!selectedVideo.includes('youtube.com')" class="local-video" [src]="selectedVideo" controls autoplay playsinline></video>
+      </div>
+      <p class="video-help">Click outside the video or × to close.</p>
+    </div>
+  </div>
+</section>

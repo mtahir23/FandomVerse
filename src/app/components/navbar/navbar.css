@@ -1,0 +1,182 @@
+.navbar {
+  width: 100%;
+  min-height: 55px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #030612;
+  border-bottom: 1px solid #00eaff;
+
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+.logo span:first-child {
+  color: white;
+}
+
+.logo span:last-child {
+  color: #00eaff;
+}
+
+/* Navigation */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+/* Menu button */
+
+.menu-btn {
+  display: none;
+
+  background: transparent;
+  color: #00eaff;
+
+  border: 1px solid #00eaff;
+  border-radius: 6px;
+
+  padding: 5px 9px;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 700px) {
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 15px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    width: 100%;
+
+    display: none;
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0;
+
+    margin-top: 10px;
+    padding: 8px 0;
+
+    background: #050816;
+    border: 1px solid #25345c;
+    border-radius: 8px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .nav-search {
+    width: calc(100% - 20px);
+    height: 42px;
+    margin: 6px 10px 10px;
+  }
+
+  .nav-search:focus-within {
+    width: calc(100% - 20px);
+  }
+
+  .nav-links a:hover {
+    background: rgba(0, 234, 255, 0.08);
+  }
+}
+
+.nav-search {
+  width: 150px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 1px solid #28496c;
+  border-radius: 999px;
+  background: #050816;
+  transition: .25s ease;
+}
+
+.nav-search:focus-within {
+  width: 190px;
+  border-color: #00eaff;
+  box-shadow: 0 0 12px rgba(0, 234, 255, .16);
+}
+
+.nav-search span {
+  color: #00eaff;
+  font-size: 20px;
+}
+
+.nav-search input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: white;
+  font: inherit;
+  font-size: 12px;
+}
+
+.nav-search input::placeholder {
+  color: #71839c;
+}
